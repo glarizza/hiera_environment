@@ -1,3 +1,12 @@
 ---
 
 hiera_level: global
+
+## Wordpress Data
+profiles::wordpress::site_name:               wordpress.puppetlabs.vm
+profiles::wordpress::wordpress_user_password: '$1$jrm5tnjw$h8JJ9mCZLmJvIxvDLjw1M/'
+profiles::wordpress::mysql_root_password:     '8ZcJZFHsvo7fINZcAvi0'
+profiles::wordpress::wordpress_db_host:       localhost
+profiles::wordpress::wordpress_db_name:       wordpress
+profiles::wordpress::wordpress_db_password:   wordpress
+
